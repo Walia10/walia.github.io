@@ -4,30 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/pratice.css">
 </head>
 <body>
-    <header></header>
+    <header>
 
+    <div class="container" id="image1">
+        <img src="/Practice-folder/images/uran-wang-bQj8qdshGyM-unsplash.jpg">
+        
+        <div class="overlay-image" id="overlay-image1" >
+            <img src="/Practice-folder/images/bill-fairs-7STm0zpYQxI-unsplash.jpg">
 
-    <div id="container">
-        <div id="main_image">
-            <img src="/images/fiona-clyde-NwIkOQ5vQMs-unsplash.jpg">
         </div>
-        <h1> First Advert</h1>
-        <div id="overlay_image">
-            <img src="/images/lean-xview-L-mvjXO1WAM-unsplash.jpg">
-        </div>
-    </div>
-    <!--<main>
-        <div id="BackgroundImage" class="image"> 
-            <img src="/images/fiona-clyde-NwIkOQ5vQMs-unsplash.jpg">
-        </div>
-        <div id="OverlappingImage" class="image">
-            <img src="/images/adana-hulett-unaOb4n3Jug-unsplash.jpg">
+        <div class="overlay-image" id="overlay-image2" >
+            <img src="images/sacha-verheij-X0rRYtJy0R8-unsplash.jpg">
+            
         </div>
         
-    </main>-->
+        <div id="Line1">PIHA BEACH</div>
+        </div>
+
+        <div id="image2">
+            <img src="/Practice-folder/images/shiva-prasad-YO3TMR7hTJg-unsplash.jpg">
+        </div>
+      
+            <div class="text">Scenic surfing location</div>
+            <button class="button">Explore</button>
+
+            <div class="text">Scenic surfing location</div>
+            <!-- add in project -->
+            <a href="http://www.piha.co.nz/" target="_blank" class="button">Explore</a>
+
+            <!-- add in project-->
+            <div class="student-info" id="student-info">
+              Himani Walia(1570252)
+            </div><br><br><br>
+
+
+
+            </header>
+
+
+
+            <main>
+
+                <div class="leftcontainer">
+                    <div class="imageSlideLeft1">
+                        <img src="images/peter-luo-COlKG8laoGI-unsplash.jpg">
+                    </div>
+                    <div class="imageSlideLeft2">
+                        <img src="images/demitre-pretorius-If7d1oxvDOQ-unsplash.jpg">
+                    </div>
+    
+                   
+                    </div>
+
+              
+
+
+                <div class="step-container" id="Step1">
+                    <h1 id="booking">Piha Lodge Booking System</h1>
+
+
+                    <ul id="progressbar">
+                        <li class="active">How many traveling with You?</li>
+                        <li>Your Preferences Please</li>
+                        <li>Personal Details</li>
+                        <li>Summary</li>
+                    </ul>
+
+                    
+<form>
+    <h2> </h2>
+    <label for="adults">Number of Adults:</label>
+    <input type="number" id="adults" ><br><br>
+    <label for="children">Number of Children:</label>
+    <input type="number" id="children" ><br><br>
+    <label for="duration">Choose Duration:</label>
+    <input type="range" id="duration" min="1" max="7" step="1" value="1"><br><br>
+
+
+
+   
+    <button class="next" type="button" onclick="navigateStep1()">Next</button>
+                     
+            </form>
+            </div>
+
+                
+            </main>
+
+            <script src="jss/final.js"></script>
+
+
+
+
+
     
 </body>
 </html>
